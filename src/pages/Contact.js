@@ -1,5 +1,5 @@
 import React from 'react';
-import MainContent from '../components/MainContent';
+import MainContent from '../Components/MainContent';
 
 function Contact() {
   return (
