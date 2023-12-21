@@ -1,6 +1,7 @@
 /* eslint-disable react/style-prop-object */
 import React from "react";
 import Logo from "./icons/Logo";
+
 function Header() {
   return (
     <div className="header fixed z-50 flex h-[64px] w-full backdrop-blur">
