@@ -9,10 +9,10 @@ const Desciption = () => {
             Chúng tôi định danh vạn vật như thế nào ?
           </p>
           <p class="text-center text-lg text-white md:w-[595px]">
-            "Với"
-            <b>NOMION</b> " - một giải pháp toàn diện sử dụng công nghệ
-            blockchain để số hoá các sản phẩm vật lý, giúp các ""
-            <span class="whitespace-nowrap text-white">thương hiệu Việt</span>
+            Với
+            <b className="ml-[10px]">NOMION</b> - một giải pháp toàn diện sử dụng công nghệ
+            blockchain để số hoá các sản phẩm vật lý, giúp các
+            <span class="whitespace-nowrap text-white ml-2">thương hiệu Việt</span>
           </p>
         </div>
         <div className="flex w-full flex-col items-center justify-center gap-5 md:flex-row md:gap-10">
