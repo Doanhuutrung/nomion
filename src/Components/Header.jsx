@@ -5,7 +5,7 @@ import Logo from "./icons/Logo";
 function Header() {
   return (
     <div className="header fixed z-50 flex h-[64px] w-full backdrop-blur">
-      <div className="flex w-full max-w-[1440px] items-center justify-between px-5 py-4 md:m-auto md:px-20 lg:px-[40px]">
+      <div className="flex w-full flex-row max-w-[1440px] items-center justify-between px-5 py-4 md:m-auto md:px-20 lg:px-[40px]">
         <a href="/">
           <Logo />
         </a>

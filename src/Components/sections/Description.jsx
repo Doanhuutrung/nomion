@@ -8,7 +8,7 @@ const Desciption = () => {
           <p className="w-full text-center text-3xl font-semibold leading-[2.5rem] text-white md:text-4xl">
             Chúng tôi định danh vạn vật như thế nào ?
           </p>
-          <p class="text-center text-lg md:w-[595px]">
+          <p class="text-center text-lg text-white md:w-[595px]">
             "Với"
             <b>NOMION</b> " - một giải pháp toàn diện sử dụng công nghệ
             blockchain để số hoá các sản phẩm vật lý, giúp các ""
@@ -22,7 +22,7 @@ const Desciption = () => {
               src="https://assets.nomion.io/nomion-website/identity-asset.png"
               alt="Identity asset"
             />
-            <p class="w-[200px] text-center text-lg font-semibold leading-[1.5rem]">
+            <p class="w-[200px] text-center text-lg font-semibold leading-[1.5rem] text-white">
               Định danh tài sản thực trên không gian số
             </p>
           </div>
@@ -32,8 +32,8 @@ const Desciption = () => {
               src="https://assets.nomion.io/nomion-website/exploitation-digital.png"
               alt="Identity asset"
             />
-            <p class="w-[200px] text-center text-lg font-semibold leading-[1.5rem]">
-              Định danh tài sản thực trên không gian số
+            <p class="w-[200px] text-center text-lg font-semibold leading-[1.5rem] text-white">
+              Khai thác tối ưu tài nguyên số
             </p>
           </div>
           <div class="flex w-2/5 flex-col items-center md:h-60 md:w-60 ">
@@ -42,8 +42,8 @@ const Desciption = () => {
               src="https://assets.nomion.io/nomion-website/global-customer.png"
               alt="Identity asset"
             />
-            <p class="w-[200px] text-center text-lg font-semibold leading-[1.5rem]">
-              Định danh tài sản thực trên không gian số
+            <p class="w-[200px] text-center text-lg font-semibold leading-[1.5rem] text-white">
+              Tiếp cận khách hàng số toàn cầu
             </p>
           </div>
         </div>
