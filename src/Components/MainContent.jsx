@@ -2,6 +2,8 @@ import React from "react";
 import KeyVisual from "./sections/keyVisual";
 import Desciption from "./sections/Description";
 import Partner from "./sections/Partner";
+import Gallery from "./sections/Gallery";
+
 
 function MainContent() {
   return (
@@ -9,6 +11,7 @@ function MainContent() {
       <KeyVisual />
       <Desciption />
       <Partner/>
+      <Gallery/>
     </main>
   );
 }
