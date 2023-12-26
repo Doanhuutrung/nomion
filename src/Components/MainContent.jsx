@@ -1,5 +1,5 @@
 import React from "react";
-import KeyVisual from "./sections/keyVisual";
+import KeyVisual from "./sections/KeyVisual";
 import Desciption from "./sections/Description";
 import Partner from "./sections/Partner";
 import Gallery from "./sections/Gallery";
