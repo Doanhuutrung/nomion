@@ -3,15 +3,16 @@ import KeyVisual from "./sections/keyVisual";
 import Desciption from "./sections/Description";
 import Partner from "./sections/Partner";
 import Gallery from "./sections/Gallery";
-
+import Technology from "./sections/Techonology";
 
 function MainContent() {
   return (
     <main className="main min-h-[100svh]">
       <KeyVisual />
       <Desciption />
-      <Partner/>
-      <Gallery/>
+      <Partner />
+      <Technology />
+      <Gallery />
     </main>
   );
 }

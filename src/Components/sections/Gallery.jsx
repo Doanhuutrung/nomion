@@ -116,7 +116,7 @@ const Gallery = () => {
               alt="ELLE Fashion Show 2023"
               class="undefined h-full w-full rounded-lg object-contain md:max-w-lg"
             />
-            <div class="flex	 w-full flex-col gap-3 rounded-lg bg-gray-700 p-4 transition-all duration-300 hover:opacity-100 md:absolute md:bottom-2 md:z-10 md:h-fit md:w-[95%] md:opacity-0">
+            <div class="flex w-full flex-col gap-3 rounded-lg bg-gray-700 p-4 transition-all duration-300 hover:opacity-100 md:absolute md:bottom-2 md:z-10 md:h-fit md:w-[95%] md:opacity-0">
               <p class="font-medium text-white">
                 ELLE Fashion Show 2023: Giao Lộ Thời Trang & Kiến Trúc
               </p>
@@ -138,6 +138,34 @@ const Gallery = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+        <div class="mb-[50px] flex h-full justify-center px-[24px] lg:w-1/2">
+          <div class="relative flex flex-col items-center justify-center">
+            <div class="absolute top-2 z-10 w-fit rounded-full bg-gray-600 text-white md:top-6">
+              <p class="px-[20px] py-[4px] text-center text-base font-semibold md:text-xl text-white">
+                Cổ vật (Coming Soon)
+              </p>
+            </div>
+            <img
+              src="https://assets.nomion.io/nomion-website/hue-banner.png"
+              alt="general.hue"
+              class="h-full w-full rounded-lg object-contain blur md:max-w-lg"
+            />
+          </div>
+        </div>
+        <div class="mb-[50px] flex h-full justify-center px-[24px] lg:w-1/2">
+          <div class="relative flex flex-col items-center justify-center">
+            <div class="absolute top-2 z-10 w-fit rounded-full bg-gray-600 text-white md:top-6">
+              <p class="px-[20px] py-[4px] text-center text-base font-semibold md:text-xl text-white">
+                Tác phẩm nghệ thuật (Coming Soon)
+              </p>
+            </div>
+            <img
+              src="https://assets.nomion.io/nomion-website/nhiep-anh-banner.png"
+              alt="general.nghethuat"
+              class="h-full w-full rounded-lg object-cover blur md:max-w-lg"
+            />
           </div>
         </div>
       </div>
