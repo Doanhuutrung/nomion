@@ -18,31 +18,31 @@ const Desciption = () => {
         <div className="flex w-full flex-col items-center justify-center gap-5 md:flex-row md:gap-10">
           <div class="flex w-2/5 flex-col items-center md:h-60 md:w-60 ">
             <img
-              class="md:rounded-4xl shadow-white-alpha backdrop-blur-1.5xl mb-2 w-full rounded-2xl object-contain"
+              className="md:rounded-4xl shadow-white-alpha backdrop-blur-1.5xl mb-2 w-full rounded-2xl object-contain"
               src="https://assets.nomion.io/nomion-website/identity-asset.png"
               alt="Identity asset"
             />
-            <p class="w-[200px] text-center text-lg font-semibold leading-[1.5rem] text-white">
+            <p className="w-[200px] text-center text-lg font-semibold leading-[1.5rem] text-white">
               Định danh tài sản thực trên không gian số
             </p>
           </div>
-          <div class="flex w-2/5 flex-col items-center md:h-60 md:w-60 ">
+          <div className="flex w-2/5 flex-col items-center md:h-60 md:w-60 ">
             <img
-              class="md:rounded-4xl shadow-white-alpha backdrop-blur-1.5xl mb-2 w-full rounded-2xl object-contain"
+              className="md:rounded-4xl shadow-white-alpha backdrop-blur-1.5xl mb-2 w-full rounded-2xl object-contain"
               src="https://assets.nomion.io/nomion-website/exploitation-digital.png"
               alt="Identity asset"
             />
-            <p class="w-[200px] text-center text-lg font-semibold leading-[1.5rem] text-white">
+            <p className="w-[200px] text-center text-lg font-semibold leading-[1.5rem] text-white">
               Khai thác tối ưu tài nguyên số
             </p>
           </div>
-          <div class="flex w-2/5 flex-col items-center md:h-60 md:w-60 ">
+          <div className="flex w-2/5 flex-col items-center md:h-60 md:w-60 ">
             <img
-              class="md:rounded-4xl shadow-white-alpha backdrop-blur-1.5xl mb-2 w-full rounded-2xl object-contain"
+              className="md:rounded-4xl shadow-white-alpha backdrop-blur-1.5xl mb-2 w-full rounded-2xl object-contain"
               src="https://assets.nomion.io/nomion-website/global-customer.png"
               alt="Identity asset"
             />
-            <p class="w-[200px] text-center text-lg font-semibold leading-[1.5rem] text-white">
+            <p className="w-[200px] text-center text-lg font-semibold leading-[1.5rem] text-white">
               Tiếp cận khách hàng số toàn cầu
             </p>
           </div>

@@ -9,7 +9,7 @@ const Footer = () => {
             Liên lạc với chúng tôi tại
           </p>
           <a href="mailto:hello@nomion.io">
-            <span class="font-semibold underline underline-offset-4 text-white">
+            <span className="font-semibold underline underline-offset-4 text-white">
               hello@nomion.io
             </span>
           </a>
@@ -18,8 +18,8 @@ const Footer = () => {
           <p className="text-center text-xs font-medium leading-[1.5rem] text-[#8C8C8C] md:text-base">
             © 2023 Powered by
             <a target="_blank" rel="noreferrer" href="https://vatlyso.vn/">
-              <span class="font-medium underline underline-offset-2">
-                Phygital Labs
+              <span className="font-medium underline underline-offset-2">
+                className Labs
               </span>
             </a>
             . All rights reserved.

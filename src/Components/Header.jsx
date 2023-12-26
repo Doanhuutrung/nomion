@@ -17,12 +17,12 @@ function Header() {
           aria-autocomplete="none"
           dir="ltr"
           data-state="closed"
-          className="placeholder:text-muted-foreground bg-opacity-white hover:bg-opacity-white-hover flex items-center justify-between rounded-full p-2 text-sm text-white outline-none backdrop-blur-md disabled:cursor-not-allowed disabled:opacity-50"
+          className="bg-opacity-white hover:bg-opacity-white-hover flex items-center justify-between rounded-full p-2 text-sm text-white outline-none backdrop-blur-md disabled:cursor-not-allowed disabled:opacity-50"
         >
           <img
             src="https://assets.nomion.io/nomion-website/language-icon.png"
             alt="global-icon"
-            class="m-auto h-6 w-6"
+            className="m-auto h-6 w-6"
             aria-hidden="true"
           />
         </button>
