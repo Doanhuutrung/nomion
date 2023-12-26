@@ -10,8 +10,8 @@ function MainContent() {
     <main className="main min-h-[100svh]">
       <KeyVisual />
       <Desciption />
-      <Partner />
       <Technology />
+      <Partner />
       <Gallery />
     </main>
   );

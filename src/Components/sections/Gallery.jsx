@@ -12,7 +12,7 @@ const Gallery = () => {
             <img
               src="https://assets.nomion.io/nomion-website/ortho-banner.png"
               alt="general.ortho"
-              class="undefined h-full w-full rounded-lg object-cover md:max-w-lg"
+              class="h-full w-full rounded-lg object-cover md:max-w-lg"
             />
             <div class="flex	 w-full flex-col gap-3 rounded-lg bg-gray-700 p-4 transition-all duration-300 hover:opacity-100 md:absolute md:bottom-2 md:z-10 md:h-fit md:w-[95%] md:opacity-0">
               <p class="font-medium text-white">Thương hiệu thời trang số</p>
@@ -46,7 +46,7 @@ const Gallery = () => {
             <img
               src="https://assets.nomion.io/nomion-website/lej-banner.png"
               alt="Le J' Cafe"
-              class="undefined h-full w-full rounded-lg object-cover md:max-w-lg"
+              class="h-full w-full rounded-lg object-cover md:max-w-lg"
             />
             <div class="flex	 w-full flex-col gap-3 rounded-lg bg-gray-700 p-4 transition-all duration-300 hover:opacity-100 md:absolute md:bottom-2 md:z-10 md:h-fit md:w-[95%] md:opacity-0">
               <p class="font-medium text-white">Cafe đặc sản Đà Lạt</p>
@@ -80,9 +80,9 @@ const Gallery = () => {
             <img
               src="https://assets.nomion.io/nomion-website/da-non-nuoc-banner.png"
               alt="general.danonnuoc"
-              class="undefined h-full w-full rounded-lg object-cover md:max-w-lg"
+              class="h-full w-full rounded-lg object-cover md:max-w-lg"
             />
-            <div class="flex	 w-full flex-col gap-3 rounded-lg bg-gray-700 p-4 transition-all duration-300 hover:opacity-100 md:absolute md:bottom-2 md:z-10 md:h-fit md:w-[95%] md:opacity-0">
+            <div class="flex w-full flex-col gap-3 rounded-lg bg-gray-700 p-4 transition-all duration-300 hover:opacity-100 md:absolute md:bottom-2 md:z-10 md:h-fit md:w-[95%] md:opacity-0">
               <p class="font-medium text-white">Đá non nước</p>
               <p class="h-5/6 text-[#BFBFBF] md:h-full">
                 Với giải pháp Nomion, 10 tác phẩm tham gia Hội thi điêu khắc đá
@@ -100,6 +100,16 @@ const Gallery = () => {
                     Thư viện số
                   </a>
                 </div>
+                <div class="flex items-center rounded-lg border px-2 py-2 md:gap-2 md:px-4">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    class="text-sm font-semibold text-white"
+                    href="https://www.spatial.io/s/Nomion-Da-Non-Nuoc-Gallery-64df8d83ace3fe3b9c26a4c0?share=0"
+                  >
+                    Bảo tàng số
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -114,7 +124,7 @@ const Gallery = () => {
             <img
               src="https://storage.googleapis.com/assets-fygito/elle/nomion-gallery/image%20207.png"
               alt="ELLE Fashion Show 2023"
-              class="undefined h-full w-full rounded-lg object-contain md:max-w-lg"
+              class="h-full w-full rounded-lg object-contain md:max-w-lg"
             />
             <div class="flex w-full flex-col gap-3 rounded-lg bg-gray-700 p-4 transition-all duration-300 hover:opacity-100 md:absolute md:bottom-2 md:z-10 md:h-fit md:w-[95%] md:opacity-0">
               <p class="font-medium text-white">
