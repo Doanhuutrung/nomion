@@ -10,7 +10,6 @@ const KeyVisual = () => {
         autoPlay
         loop
         muted
-        playsInline
       >
         <source
           src="https://assets.nomion.io/nomion-website/earth_rotate.mp4"

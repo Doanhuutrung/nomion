@@ -14,7 +14,7 @@ function Technology() {
         </p>
         <div className="h-full ">
           <Swiper
-            effect={"coverflow"}
+           
             grabCursor={true}
             centeredSlides={true}
             loop={true}

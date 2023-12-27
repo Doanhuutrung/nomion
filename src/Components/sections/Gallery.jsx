@@ -25,7 +25,6 @@ const Gallery = () => {
                 <div className="flex items-center rounded-lg border px-2 py-2 md:gap-2 md:px-4">
                   <a
                     target="_blank"
-                    rel="noreferrer"
                     className="text-sm font-semibold text-white"
                     href="https://ortho.fashion"
                   >

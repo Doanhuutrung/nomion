@@ -18,8 +18,8 @@ const Footer = () => {
           <p className="text-center text-xs font-medium leading-[1.5rem] text-[#8C8C8C] md:text-base">
             © 2023 Powered by
             <a target="_blank" rel="noreferrer" href="https://vatlyso.vn/">
-              <span className="font-medium underline underline-offset-2">
-                className Labs
+              <span className="font-medium underline underline-offset-2 ml-1">
+                Phygital Labs
               </span>
             </a>
             . All rights reserved.

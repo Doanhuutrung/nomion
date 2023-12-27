@@ -1,6 +1,6 @@
 const Desciption = () => {
   return (
-    <div className="relative flex w-full flex-col gap-y-14 overflow-x-clip px-6 md:mt-28 lg:px-10">
+    <div className="relative flex w-full flex-col gap-y-14 overflow-x-clip px-6 md:mt-28 lg:px-10 ">
       <div className="md:absolute md:-top-[400px] md:right-[500px] md:h-[1440px] md:w-full md:rounded-full"></div>
       <div className=" md:absolute md:-top-[400px] md:left-[500px] md:h-[1440px] md:w-full md:rounded-full"></div>
       <div className="z-10 flex h-full w-full flex-col gap-14 bg-[transparent]">
