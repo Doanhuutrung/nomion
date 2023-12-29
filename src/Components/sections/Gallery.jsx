@@ -1,3 +1,4 @@
+import DaNonNuoc from "../pages/DaNonNuoc";
 const Gallery = () => {
   return (
     <div className="relative w-full overflow-x-clip px-2 py-6 lg:px-6 lg:py-20">
@@ -27,6 +28,7 @@ const Gallery = () => {
                     target="_blank"
                     className="text-sm font-semibold text-white"
                     href="https://ortho.fashion"
+                    rel="noreferrer"
                   >
                     Thư viện số
                   </a>
@@ -94,7 +96,7 @@ const Gallery = () => {
                     target="_blank"
                     rel="noreferrer"
                     className="text-sm font-semibold text-white"
-                    href="https://nomion.io/danonnuoc2023"
+                    href="/DaNonNuoc"
                   >
                     Thư viện số
                   </a>

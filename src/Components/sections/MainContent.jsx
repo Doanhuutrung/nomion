@@ -1,9 +1,9 @@
 import React from "react";
-import KeyVisual from "./sections/KeyVisual";
-import Desciption from "./sections/Description";
-import Partner from "./sections/Partner";
-import Gallery from "./sections/Gallery";
-import Technology from "./sections/Techonology";
+import KeyVisual from "./KeyVisual";
+import Desciption from "./Description";
+import Partner from "./Partner";
+import Gallery from "./Gallery";
+import Technology from "./Techonology";
 
 function MainContent() {
   return (

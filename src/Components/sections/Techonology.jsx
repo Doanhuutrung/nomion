@@ -17,13 +17,13 @@ function Technology() {
            
             grabCursor={true}
             centeredSlides={true}
-            loop={true}
+            loop={false}
             slidesPerView={"auto"}
             coverflowEffect={{
-              rotate: 0,
-              stretch: 0,
-              depth: 100,
-              modifier: 2.5,
+              rotate: 10,
+              stretch: 2,
+              depth: 50,
+              modifier: 3,
             }}
             pagination={{ el: ".swiper-pagination", clickable: true }}
             modules={[Pagination, Navigation]}

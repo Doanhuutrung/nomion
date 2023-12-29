@@ -1,7 +1,8 @@
 /* eslint-disable react/style-prop-object */
 import React, { useState } from "react";
-import Logo from "./icons/Logo";
-import Menu from "./common/accordion";
+import Logo from "../icons/Logo";
+import Menu from "../common/accordion";
+import LikeButton from "../icons/LikeButton";
 
 function Header() {
   const [isMenuVisible, setMenuVisible] = useState(false);
@@ -15,12 +16,15 @@ function Header() {
         <a href="/">
           <Logo />
         </a>
+        <div className="text-white">
+          <LikeButton/>
+        </div>
         <div onClick={handleIconClick}>
           <button
             type="button"
             dir="ltr"
             data-state="closed"
-            className=" rounded-full p-2 text-sm text-white outline-none backdrop-blur-md disabled:cursor-not-allowed disabled:opacity-50"
+            className=" rounded-full p-2 text-sm text-white outline-none backdrop-blur-md disabled:cursor-not-allowed disabled:opacity-50 justify-center"
           >
             <img
               src="https://assets.nomion.io/nomion-website/language-icon.png"
