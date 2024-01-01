@@ -2,7 +2,6 @@
 import React, { useState } from "react";
 import Logo from "../icons/Logo";
 import Menu from "../common/accordion";
-import LikeButton from "../icons/LikeButton";
 
 function Header() {
   const [isMenuVisible, setMenuVisible] = useState(false);
@@ -16,9 +15,6 @@ function Header() {
         <a href="/">
           <Logo />
         </a>
-        <div className="text-white">
-          <LikeButton/>
-        </div>
         <div onClick={handleIconClick}>
           <button
             type="button"

@@ -1,17 +1,12 @@
 import React from "react";
 import Header from "../sections/Header";
-import Routers from "../Routes/Routers";
 import Footer from "../sections/Footer";
-import MainContent from "../sections/MainContent";
 
-const Layout = () => {
+const Layout = ({children}) => {
   return (
     <>
       <Header/>
-      <div>
-        <Routers/>
-        <MainContent/>
-      </div>
+      {children}
       <Footer/>
     </>
   );

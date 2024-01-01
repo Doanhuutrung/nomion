@@ -22,6 +22,7 @@ const LikeButton = () => {
 
   const incrementClickCount = () => {
     setClickCount(clickCount + 1);
+    
   };
 
   return (

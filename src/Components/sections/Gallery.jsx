@@ -1,4 +1,4 @@
-import DaNonNuoc from "../pages/DaNonNuoc";
+import { Link } from "react-router-dom";
 const Gallery = () => {
   return (
     <div className="relative w-full overflow-x-clip px-2 py-6 lg:px-6 lg:py-20">
@@ -92,14 +92,11 @@ const Gallery = () => {
               </p>
               <div className="flex justify-center gap-3 md:justify-start">
                 <div className="flex items-center rounded-lg border px-2 py-2 md:gap-2 md:px-4">
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
+                  <Link to="/danonnuoc"
                     className="text-sm font-semibold text-white"
-                    href="/DaNonNuoc"
                   >
                     Thư viện số
-                  </a>
+                  </Link>
                 </div>
                 <div className="flex items-center rounded-lg border px-2 py-2 md:gap-2 md:px-4">
                   <a
